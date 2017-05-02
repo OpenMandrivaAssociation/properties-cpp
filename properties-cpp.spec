@@ -24,7 +24,8 @@ services. Its main features include:
 
  - Thread-safe signal invocation and observer mgmt.
  - The ability to dispatch signal invocations via arbitrary event loops.
- - Typed properties with an in-place update mechanism that avoids unneccessary deep copies.
+ - Typed properties with an in-place update mechanism that avoids unneccessary
+   deep copies.
  - Well tested and documented.
 
 
