@@ -38,7 +38,7 @@ Development files (Headers etc.) for %{name}.
 
 %prep
 %setup -qn %{name}
-%apply_patches
+%autopatch -p1
 
 %cmake -G Ninja \
 	-DGTEST_LIBRARY=-lgtest
