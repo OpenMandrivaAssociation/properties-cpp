@@ -3,7 +3,7 @@
 
 Name: properties-cpp
 Version: 0.0.1
-Release: 3
+Release: 4
 Source0: %{name}-%{version}.tar.xz
 Patch0: properties-cpp-system-gmock.patch
 Summary: C++11 implementation of properties and signals
