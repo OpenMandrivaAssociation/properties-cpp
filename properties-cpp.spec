@@ -7,7 +7,7 @@ Release: 4
 Source0: %{name}-%{version}.tar.xz
 Patch0: properties-cpp-system-gmock.patch
 Summary: C++11 implementation of properties and signals
-URL: http://launchpad.net/properties-cpp
+URL: https://launchpad.net/properties-cpp
 License: LGPLv3
 Group: System/Libraries
 BuildRequires: cmake
