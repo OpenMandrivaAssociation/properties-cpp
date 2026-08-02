@@ -2,8 +2,8 @@
 %define devname %mklibname properties-cpp -d
 
 Name: properties-cpp
-Version: 0.0.1
-Release: 4
+Version: 0.0.4
+Release: 1
 Source0: %{name}-%{version}.tar.xz
 Patch0: properties-cpp-system-gmock.patch
 Summary: C++11 implementation of properties and signals
@@ -11,6 +11,7 @@ URL: https://launchpad.net/properties-cpp
 License: LGPLv3
 Group: System/Libraries
 BuildRequires: cmake
+BuildRequires: cmake-extras
 BuildRequires: ninja
 BuildRequires: gtest-devel
 BuildRequires: gtest-source
